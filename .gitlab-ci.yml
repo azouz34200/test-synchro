@@ -1,4 +1,7 @@
-Build My App:
-  stage: build
+stages:
+- push
+
+push-code:
+  stage: push
   script:
    - ls -l
