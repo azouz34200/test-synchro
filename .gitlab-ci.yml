@@ -1,6 +1,5 @@
-
 Build My App:
-  stage: push
+  stage: build
   script:
    - ls -l
    - git remote add upstream https://${USER}:${TOKEN}@nfrarpx.prd.a2742-sfa.eu-west-1.aws.csp.bsc.socgen/a399376/test-syncrho.git
